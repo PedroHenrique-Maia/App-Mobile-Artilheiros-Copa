@@ -1,0 +1,32 @@
+{
+  "name": "exemplo-sqlite",
+  "version": "0.0.1",
+  "description": "Exemplo de desenvolvimento cliente-servidor com node.js, fastify e SQLite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "type": "module", 
+  "dependencies": {
+    "fastify": "^3.27.4",
+    "fastify/formbody":"6.0.0",
+    "fastify-static": "^4.6.1",
+    "fastify-cors": "5.0.0",
+    "handlebars": "^4.7.7",
+    "point-of-view": "^5.2.0",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.2"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-sqlite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "sqlite"
+  ]
+}
